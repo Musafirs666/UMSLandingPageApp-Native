@@ -9,6 +9,7 @@ import {
     Text,
     ImageBackground,
     FlatList,
+    SafeAreaView
 } from 'react-native'
 import NavigationBar from '../components/NavigationBar'
 import { globalStyles } from '../globalStyle'
@@ -51,6 +52,7 @@ function HomeScreen({ navigation }) {
         },
     ]
     return (
+        <SafeAreaView style={styles.safeAreaViewContainer}>
         <ScrollView style={styles.screenContainer}>
             <NavigationBar navigation={navigation} />
             <View style={globalStyles.yellowLiner} />
@@ -346,10 +348,14 @@ function HomeScreen({ navigation }) {
             <View style={globalStyles.yellowLiner} />
             <Footer />
         </ScrollView>
+        </SafeAreaView>
     )
 }
 
 const styles = StyleSheet.create({
+    safeAreaViewContainer:{
+        marginTop:25,
+    },
     //Container Style
     screenContainer: {
         width: Dimensions.get('window').width,
