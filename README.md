@@ -6,6 +6,7 @@ Sebelum Anda memulai, pastikan Anda telah menginstal beberapa prasyarat berikut:
 - [Node.js](https://nodejs.org/) - Pastikan Anda memiliki Node.js yang diinstal di komputer Anda.
 - [npm](https://www.npmjs.com/) - npm biasanya diinstal bersamaan dengan Node.js.
 - [Expo CLI](https://docs.expo.io/get-started/installation/) - Expo CLI digunakan untuk mengelola proyek Expo. Anda dapat menginstalnya dengan menjalankan `npm install -g expo-cli`.
+- Perangkat fisik yang terhubung ke komputer dengan usb dan mode debugging aktif atau emulator android
 
 ## Memulai
 Untuk menjalankan proyek ini, ikuti langkah-langkah berikut dalam gitbash/cmd:
