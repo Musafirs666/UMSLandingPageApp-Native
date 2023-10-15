@@ -11,7 +11,7 @@ Sebelum Anda memulai, pastikan Anda telah menginstal beberapa prasyarat berikut:
 Untuk menjalankan proyek ini, ikuti langkah-langkah berikut dalam gitbash/cmd:
 
 1. Clone Repository: Clone repo ini ke komputer Anda dengan menjalankan perintah:
-   [git clone https://github.com/username/nama-repo](https://github.com/Musafirs666/UMSLandingPageApp-Native).git
+   git clone https://github.com/Musafirs666/UMSLandingPageApp-Native.git
 2. Masuk ke Direktori Proyek: Pindah ke direktori proyek yang baru dibuat:
    --> cd UMSLandingPageApp-Native
 3. Instal Dependensi: Instal semua dependensi proyek dengan menjalankan perintah:
